@@ -13,7 +13,7 @@
 	},
 	"files": {
 		"adressen": {
-			"url": "http://download.moers.de/Heatmap/test.json",
+			"url": "hh",
 			"schedule": "0 * 3 * * 3",
 			"options": {}
 		}
