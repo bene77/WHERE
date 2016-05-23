@@ -47,23 +47,5 @@
 	"examples": [{
 		"url": "adressen",
 		"description": "returns the unmodified adressen.json"
-	}, {
-		"url": "baumkataster/ /Pflanzjahr>=1920&Pflanzjahr<=1925",
-		"description": "returns trees which have been planted between 1920 and 1925"
-	}, {
-		"url": "baumkataster/8.526248931884766,47.363245989634336;8.526248931884766,47.37649961666246;8.547019958496094,47.37649961666246;8.547019958496094,47.363245989634336/Baumgattung=Sophora/limit=-1",
-		"description": "returns all trees within given polygon and with 'Baumgattung' Sophora"
-	}, {
-		"url": "adressen/%20/Adresse$weg&(Stadtquartier=Altstadt%7CStadtquartier=Enge)/limit=50&page=1",
-		"description": "returns second page of 50 adresses which contain the phrase 'weg' and are located in either Zurich Altstadt or Zurich Enge"
-	}, {
-		"url": "fussweg/8.53712797164917,47.36892859943165;8.539423942565916,47.3704545156932;8.542191982269287,47.370163868380345;8.542170524597168,47.365338889008;8.540153503417969,47.36561502925242;8.53712797164917,47.36892859943165/ /limit=-1",
-		"description": "returns all footpaths within or intersecting with given polygon"
-	}, {
-		"url": "statistische_zonen/8.542213439941406,47.38789042338135;8.532943725585938,47.375685893433115",
-		"description": "returns statistical zones intersecting with given lines"
-	}, {
-		"url": "baumkataster/ / /limit=5&sortby=dist&dist=8.5302425707556,47.3759182540103",
-		"description": "returns the five closest trees to specified point"
 	}]
 }
