@@ -12,7 +12,7 @@
 		"maxlimit": 24000
 	},
 	"files": {
-		"adressen": {
+		"bussgelder": {
 			"url": "http://download.moers.de/Bussgelder/Bu%C3%9Fgeld%20fv/Bu%C3%9Fgeld%20fv/bussgelderfaharenderverkehr.json",
 			"schedule": "0 * 3 * * 3",
 			"options": {}
@@ -20,11 +20,11 @@
 	},
 
 	"docs": true,
-	"title": "WHERE? API Documentation",
+	"title": "WHERE? API Documentation for Bussgelder fv",
 	"description": "This API allows to query selected GeoJSON-files from [Open Data Zürich](http://data.stadt-zuerich.ch).",
 	"hostname": "https://bussgelderfahrenderverkehr.herokuapp.com/",
 	"examples": [{
-		"url": "adressen",
-		"description": "returns the unmodified adressen.json"
+		"url": "bussgelder",
+		"description": "returns the unmodified bussgelder.json"
 	}]
 }
