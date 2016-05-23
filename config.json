@@ -4,15 +4,15 @@
 	
 	"level": "features",
 	"options": {
-		"limit": 50,
+		"limit": 24000,
 		"page": 0,
 		"sortby": -1,
 		"properties": -1,
 		"desc": false,
-		"maxlimit": 200
+		"maxlimit": 24000
 	},
 	"files": {
-		"adressen": {
+		"bussgelderfv": {
 			"url": "http://download.moers.de/Heatmap/test.json",
 			"schedule": "0 * 3 * * 3",
 			"options": {}
@@ -23,23 +23,7 @@
 			"options": {
 				"maxlimit": -1
 			}
-		},
-		"statistische_zonen": {
-			"url": "https://data.stadt-zuerich.ch/storage/f/stat_zonen/statistische_zonen.json",
-			"schedule": "0 15 3 1 * *",
-			"options": {
-				"limit": 200
-			}
-		},
-		"fussweg": {
-			"url": "https://data.stadt-zuerich.ch/storage/f/fussweg/fussweg.json",
-			"schedule": "0 20 3 1 * *",
-			"options": {
-				"maxlimit": -1
-			}
 		}
-	},
-
 	"docs": true,
 	"title": "WHERE? API Documentation",
 	"description": "This API allows to query selected GeoJSON-files from [Open Data Zürich](http://data.stadt-zuerich.ch).",
