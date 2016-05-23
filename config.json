@@ -16,13 +16,6 @@
 			"url": "http://download.moers.de/Bussgelder/Bu%C3%9Fgeld%20fv/Bu%C3%9Fgeld%20fv/bussgelderfaharenderverkehr.json",
 			"schedule": "0 * 3 * * 3",
 			"options": {}
-		},
-		"baumkataster": {
-			"url": "https://data.stadt-zuerich.ch/storage/f/baumkataster/baumkataster.json",
-			"schedule": "0 10 3 * * 3",
-			"options": {
-				"maxlimit": -1
-			}
 		}
 	},
 
