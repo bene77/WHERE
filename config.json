@@ -13,7 +13,7 @@
 	},
 	"files": {
 		"adressen": {
-			"url": "https://data.stadt-zuerich.ch/storage/f/adressen/adressen.json",
+			"url": "http://download.moers.de/Heatmap/test.json",
 			"schedule": "0 * 3 * * 3",
 			"options": {}
 		}
