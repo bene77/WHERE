@@ -26,5 +26,13 @@
 	"examples": [{
 		"url": "bussgelder",
 		"description": "returns the unmodified bussgelder.json"
+	},
+	{
+		"url": "bussgelder/%20/Geldbusse%3E25",
+		"description": "all incidents where the fine was higher than 25€"
+	},
+	{
+		"url": "bussgelder/%20/Tattag=01.03.2015%7CTattag=03.03.2015",
+		"description": "all incidents wich have been ticketed between 01.03.2015 and 03.03.2015"	
 	}]
 }
