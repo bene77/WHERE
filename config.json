@@ -43,7 +43,7 @@
 	"docs": true,
 	"title": "WHERE? API Documentation",
 	"description": "This API allows to query selected GeoJSON-files from [Open Data Zürich](http://data.stadt-zuerich.ch).",
-	"hostname": "http://where.ft0.ch",
+	"hostname": "https://bussgelderfahrenderverkehr.herokuapp.com/",
 	"examples": [{
 		"url": "adressen",
 		"description": "returns the unmodified adressen.json"
