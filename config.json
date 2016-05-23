@@ -23,7 +23,7 @@
 			"options": {
 				"maxlimit": -1
 			}
-		}
+		},
 	"docs": true,
 	"title": "WHERE? API Documentation",
 	"description": "This API allows to query selected GeoJSON-files from [Open Data Zürich](http://data.stadt-zuerich.ch).",
