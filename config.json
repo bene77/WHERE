@@ -29,7 +29,7 @@
 	},
 	{
 		"url": "bussgelder/%20/Geldbusse%3E25",
-		"description": "gibt alle Verstöße, welche ein höheres Bußgeld als 25€ haben aus"
+		"description": "gibt alle Verstöße, welche ein höheres Bußgeld als 25€ haben, aus"
 	},
 	{
 		"url": "bussgelder/%20/Tattag=01.03.2015%7CTattag=03.03.2015",
