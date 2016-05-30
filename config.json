@@ -21,7 +21,7 @@
 
 	"docs": true,
 	"title": "WHERE? API Documentation for Bussgelder fv",
-	"description": "This API allows to query selected GeoJSON-file for [Bußgelder fahrender Verkehr](http://download.moers.de/Bussgelder/Bu%C3%9Fgeld%20fv/Bu%C3%9Fgeld%20fv/bussgelderfaharenderverkehr.json) in Moers.",
+	"description": "Diese API erlaubt Ihnen, verschiedene Abfragen für die Geo-JSON Datei [Bußgelder fahrender Verkehr](http://download.moers.de/Bussgelder/Bu%C3%9Fgeld%20fv/Bu%C3%9Fgeld%20fv/bussgelderfaharenderverkehr.json) in Moers, zu erstellen.",
 	"hostname": "https://bussgelderfahrenderverkehr.herokuapp.com/",
 	"examples": [{
 		"url": "bussgelder",
