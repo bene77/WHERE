@@ -21,18 +21,18 @@
 
 	"docs": true,
 	"title": "WHERE? API Documentation for Bussgelder fv",
-	"description": "Diese API erlaubt Ihnen, verschiedene Abfragen für die Geo-JSON Datei [Bußgelder fahrender Verkehr](http://download.moers.de/Bussgelder/Bu%C3%9Fgeld%20fv/Bu%C3%9Fgeld%20fv/bussgelderfaharenderverkehr.json) in Moers, zu erstellen.",
+	"description": "Diese API erlaubt Ihnen, verschiedene Abfragen für die GeoJSON Datei [Bußgelder fahrender Verkehr](http://download.moers.de/Bussgelder/Bu%C3%9Fgeld%20fv/Bu%C3%9Fgeld%20fv/bussgelderfaharenderverkehr.json) in Moers, zu erstellen.",
 	"hostname": "https://bussgelderfahrenderverkehr.herokuapp.com/",
 	"examples": [{
 		"url": "bussgelder",
-		"description": "returns the unmodified bussgelder.json"
+		"description": "gibt die unbearbeitete Datei bussgelder.json aus"
 	},
 	{
 		"url": "bussgelder/%20/Geldbusse%3E25",
-		"description": "all incidents where the fine was higher than 25€"
+		"description": "gibt alle Verstöße, welche ein höheres Bußgeld als 25€ haben aus"
 	},
 	{
 		"url": "bussgelder/%20/Tattag=01.03.2015%7CTattag=03.03.2015",
-		"description": "all incidents wich have been ticketed between 01.03.2015 and 03.03.2015"	
+		"description": "gibt alle Verstöße die zwischen dem 01.03.2015 und dem 03.03.2015 aus"	
 	}]
 }
