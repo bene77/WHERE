@@ -32,7 +32,7 @@
 		"description": "gibt alle Verstöße, welche ein höheres Bußgeld als 25€ haben, aus"
 	},
 	{
-		"url": "bussgelder/%20/Tattag=01.03.2015%7CTattag=03.03.2015",
-		"description": "gibt alle Verstöße zwischen dem 01.03.2015 und dem 03.03.2015 aus"	
+		"url": "bussgelder/%20/Tattag=03.03.2015",
+		"description": "gibt alle Verstöße am 03.03.2015 aus"	
 	}]
 }
